@@ -10,11 +10,13 @@ const App = () => {
   };
   return (
     <>
-    <div class ="heading">Child to parent communication in React hooks</div>
-      <div class="container">
+    <div class="container">
+    <h2 class ="heading">Child to parent communication in React hooks</h2>
+      <div class="inner-container">
         <h1>Parent Component</h1>
         <p>Value is {value}</p>
         <Child callback={updateCallBack} />
+      </div>
       </div>
     </>
   );
